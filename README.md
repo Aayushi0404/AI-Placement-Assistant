@@ -1,66 +1,64 @@
-# Smart Placement Assistant
-RAG-based AI career guidance · SBERT + Groq LLaMA3 · Streamlit
+# 🎯 Smart Placement Assistant (RAG-Based System)
 
-## Quick Setup (3 steps)
+# AI-powered placement preparation system using Retrieval-Augmented Generation (RAG) that provides intelligent suggestions, identifies missing skill points, and improves interview readiness.
 
-### Step 1 — Install
-```bash
-pip install -r requirements.txt
-```
-First time takes 5-10 min (downloads SBERT model ~90MB)
+# 
 
-### Step 2 — Add Groq API Key
-Edit `.env` file:
-```
-GROQ_API_KEY=gsk_xxxxxxxxxxxxxxxxxxxxxxxx
-```
-Get free key at https://console.groq.com (free, fast)
+# 🚀 Features
 
-### Step 3 — Run
-```bash
-streamlit run app.py
-```
-Opens at http://localhost:8501
+# 🧑‍💼 Live Interview Practice (HR, Technical, Core Subjects)
 
----
+# 📄 Resume Analysis
 
-## Project Structure
-```
-smart_placement/
-├── app.py                    ← Main Streamlit app (all 4 pages)
-├── .env                      ← Your Groq API key (keep private)
-├── requirements.txt
-├── data/
-│   ├── questions.json        ← RAG KB: 13 domains × 20 questions = 260 questions
-│   └── jobs.csv              ← RAG KB: 20 job roles with skills
-└── utils/
-    ├── interview.py          ← RAG question retrieval + answer analysis
-    ├── resume.py             ← RAG resume matching + skill extraction
-    └── jobs.py               ← RAG job prediction
-```
+# 💼 Best Job Role Recommendation based on skills
 
-## RAG Architecture
-```
-User Input
-    ↓
-SBERT (all-MiniLM-L6-v2) → 384-dim vector
-    ↓
-Cosine Similarity against Knowledge Base vectors
-    ↓
-Top-K most relevant documents retrieved
-    ↓
-[User Input + Retrieved Context] → Groq LLaMA3-70B
-    ↓
-Grounded AI Response
-```
+# 🧠 RAG-based intelligent suggestions (skills gap, improvements, contextual answers)
 
-## Viva Answer (memorize this)
-"Our project implements a complete RAG (Retrieval Augmented Generation) pipeline.
-We use SBERT's all-MiniLM-L6-v2 model to encode both user input and our domain
-knowledge base into 384-dimensional semantic vectors. Cosine similarity retrieves
-the most relevant documents from our knowledge base. These retrieved documents are
-passed as context to Groq's LLaMA3-70B model for generation.
-This RAG architecture is applied across all three features:
-interview practice uses it to retrieve diverse domain questions,
-resume analyzer uses it to match resumes with job descriptions,
-and the job predictor uses it to find semantically similar job roles."
+# 🧠 RAG System
+
+# Retrieves relevant data from datasets
+
+# Uses Groq LLM (Llama3-70B) for generation
+
+# Provides accurate suggestions and identifies missing skill areas
+
+# 🛠️ Tech Stack
+
+# Streamlit (Frontend/UI)
+
+# Groq API (Llama3-70B)
+
+# Sentence Transformers (all-MiniLM-L6-v2)
+
+# PyPDF2 / pdfplumber
+
+# scikit-learn, pandas
+
+# python-dotenv
+
+# Python
+
+# ▶️ Run Locally
+
+# git clone https://github.com/Aayushi0404/Smart-Placement-Assistant.git
+
+# cd Smart-Placement-Assistant
+
+# pip install -r requirements.txt
+
+# streamlit run app.py
+
+# 
+
+# 
+
+# 
+
+# 👩‍💻 Author
+
+# 
+
+# Aayushi Verma
+
+# GitHub: https://github.com/Aayushi0404
+
