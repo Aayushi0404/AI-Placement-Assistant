@@ -40,8 +40,7 @@
 
 # ▶️ Run Locally
 
-# git clone https://github.com/Aayushi0404/Smart-Placement-Assistant.git
-
+# git https://github.com/Aayushi0404/AI-Placement-Assistant.git
 # cd Smart-Placement-Assistant
 
 # pip install -r requirements.txt
