@@ -1,0 +1,21 @@
+job_role,skills
+ML Engineer,python machine learning tensorflow deep learning scikit-learn model training deployment neural networks pytorch feature engineering statistics optimization mlops
+Data Scientist,python machine learning statistics research hypothesis testing ab testing visualization feature engineering clustering pandas numpy jupyter scipy
+Data Analyst,python sql pandas data analysis statistics visualization matplotlib seaborn excel reporting dashboard power bi tableau looker
+Web Developer,html css javascript react nodejs frontend backend responsive design typescript vue angular next.js
+Backend Developer,python django flask rest api postgresql redis docker microservices java spring golang node.js
+Cloud Engineer,aws azure gcp docker kubernetes devops ci cd linux serverless pipeline terraform ansible cloudformation
+Database Administrator,sql mysql postgresql database normalization stored procedures triggers joins optimization indexing mongodb cassandra
+NLP Engineer,nlp bert transformers text classification sentiment analysis named entity recognition python pytorch huggingface spacy
+Data Engineer,python sql etl pipeline apache spark hadoop data warehouse snowflake airflow kafka databricks dbt
+Business Analyst,sql excel power bi tableau business intelligence reporting dashboard kpi stakeholder communication requirements jira
+Software Engineer,java python c++ algorithms data structures problem solving system design object oriented programming git agile
+Mobile Developer,android ios flutter react native mobile app development kotlin swift firebase dart
+DevOps Engineer,docker kubernetes jenkins ci cd git linux bash ansible terraform aws azure monitoring prometheus grafana
+Full Stack Developer,react nodejs express mongodb html css javascript python django postgresql rest api graphql
+AI Research Engineer,python pytorch tensorflow deep learning research arxiv papers optimization algorithms cuda gpu
+Cybersecurity Analyst,network security penetration testing vulnerability assessment firewall ssl tls encryption python linux
+Product Manager,product roadmap agile scrum user stories stakeholder management analytics a/b testing jira confluence
+QA Engineer,testing automation selenium pytest java junit api testing performance testing bug reporting regression
+Blockchain Developer,solidity ethereum web3 smart contracts cryptography distributed systems javascript python
+Computer Vision Engineer,opencv python deep learning image processing cnn yolo object detection segmentation pytorch
